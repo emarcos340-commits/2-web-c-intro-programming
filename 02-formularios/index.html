@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formularios</title>
+</head>
+<body>
+
+  <header>
+    <h1>div y span</h1>
+  </header>
+
+  <main>
+    <section>
+      <p>Hola mundo</p>
+      <p>Hola mundo</p>
+      <p>Hola mundo</p>
+      <p>Hola mundo</p>
+      <p>Hola mundo</p>
+    </section>
+
+    <section>
+      <a href="#">Click aquí</a>
+      <a href="#">Click aquí</a>
+      <a href="#">Click aquí</a>
+      <p><span>❤️</span> 5 <span>Vidas</span></p>
+      <span>Texto en Orange</span>
+      <span>Texto en Blue</span>
+    </section>
+
+    <hr />
+
+    <section id="contact-form">
+      <h2>Formulario de Contacto</h2>
+
+      <form action="" method="POST">
+
+        <div>
+          <label for="fname">First Name *</label>
+          <input type="text" id="fname" required />
+        </div>
+
+        <div>
+          <label for="lname">Last Name *</label>
+          <input type="text" id="lname" required />
+        </div>
+
+        <div>
+          <label for="email">Email *</label>
+          <input type="email" id="email" required />
+        </div>
+
+        <fieldset>
+          <legend>Query Type *</legend>
+
+          <label>
+            <input type="radio" name="query_type" value="general" required />
+            General Enquiry
+          </label>
+
+          <label>
+            <input type="radio" name="query_type" value="support" required />
+            Support Request
+          </label>
+        </fieldset>
+
+        <div>
+          <label for="message">Message *</label><br />
+          <textarea id="message" rows="4" cols="50" required></textarea>
+        </div>
+
+        <div>
+          <label for="car">Choose a car:</label>
+          <select id="car" name="car">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+        </div>
+
+        <div>
+          <label>
+            <input type="checkbox" name="consent" required />
+            I consent to being contacted by the team *
+          </label>
+        </div>
+
+        <button type="submit">Enviar</button>
+
+      </form>
+    </section>
+
+  </main>
+
+</body>
+</html>
