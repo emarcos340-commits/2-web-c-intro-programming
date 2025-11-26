@@ -17,4 +17,4 @@ Este proyecto consiste en una página web creada con HTML como parte del proyect
 👉 https://github.com/emarcos340-commits/2-web-c-intro-programming
 
 **Página publicada:**  
-👉 https://tuusuario.github.io/nombre-del-repo
+👉 https://emarcos340-commits.github.io/2-web-c-intro-programming/03-mi-sitio/
